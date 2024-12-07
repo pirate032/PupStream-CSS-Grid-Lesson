@@ -42,7 +42,7 @@ main {
         "wall"
         "max"
         "doc"
-        "heal";     
+        "basi";     
 }
 
 @media(min-width: 500px) {
@@ -52,17 +52,17 @@ main {
             "bail bail"
             "wall max"
             "doc max"
-            "heal heal"
+            "basi basi"
     } 
 }
    
 @media(min-width: 870px){
     main {
         grid-template-columns: repeat(12, 1fr);
-        grid-template-columns: repeat(9, 1fr) repeat(3, minmax(70px, 1fr));
+        /* grid-template-columns: repeat(9, 1fr) repeat(3, minmax(70px, 1fr)); */
         grid-template-areas: 
             "bail bail bail bail bail bail wall wall wall max max max"
-            "doc doc doc heal heal heal heal heal heal max max max"
+            "doc doc doc basi basi basi basi basi basi max max max"
     }
 }
 
@@ -82,8 +82,8 @@ main {
     grid-area: doc;
 }
 
-.health {
-    grid-area: heal;
+.basil {
+    grid-area: basi;
 }
 
 /* =================
