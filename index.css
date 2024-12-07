@@ -39,7 +39,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "bail"
-        "envi"
+        "wall"
         "nasa"
         "phys"
         "heal";     
@@ -50,7 +50,7 @@ main {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
             "bail bail"
-            "envi nasa"
+            "wall nasa"
             "phys nasa"
             "heal heal"
     } 
@@ -61,7 +61,7 @@ main {
         grid-template-columns: repeat(12, 1fr);
         grid-template-columns: repeat(9, 1fr) repeat(3, minmax(70px, 1fr));
         grid-template-areas: 
-            "bail bail bail bail bail bail envi envi envi nasa nasa nasa"
+            "bail bail bail bail bail bail wall wall wall nasa nasa nasa"
             "phys phys phys heal heal heal heal heal heal nasa nasa nasa"
     }
 }
@@ -70,8 +70,8 @@ main {
     grid-area: bail;
 }
     
-.environment {
-    grid-area: envi;
+.wallace {
+    grid-area: wall;
 }
 
 .nasa {
