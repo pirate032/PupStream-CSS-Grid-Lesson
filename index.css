@@ -41,7 +41,7 @@ main {
         "bail"
         "wall"
         "max"
-        "phys"
+        "doc"
         "heal";     
 }
 
@@ -51,7 +51,7 @@ main {
         grid-template-areas: 
             "bail bail"
             "wall max"
-            "phys max"
+            "doc max"
             "heal heal"
     } 
 }
@@ -62,7 +62,7 @@ main {
         grid-template-columns: repeat(9, 1fr) repeat(3, minmax(70px, 1fr));
         grid-template-areas: 
             "bail bail bail bail bail bail wall wall wall max max max"
-            "phys phys phys heal heal heal heal heal heal max max max"
+            "doc doc doc heal heal heal heal heal heal max max max"
     }
 }
 
@@ -78,8 +78,8 @@ main {
     grid-area: max;
 }
 
-.physics { 
-    grid-area: phys;
+.doc { 
+    grid-area: doc;
 }
 
 .health {
